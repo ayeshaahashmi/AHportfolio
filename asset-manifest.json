@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/AHportfolio/static/css/main.2478e7c3.css",
-    "main.js": "/AHportfolio/static/js/main.987e7079.js",
+    "main.css": "/AHportfolio/static/css/main.75843380.css",
+    "main.js": "/AHportfolio/static/js/main.e9f66750.js",
     "static/js/787.7da95b79.chunk.js": "/AHportfolio/static/js/787.7da95b79.chunk.js",
     "static/media/form1p2.PNG": "/AHportfolio/static/media/form1p2.8457e3e0a47d040a51e2.PNG",
     "static/media/form1p1.PNG": "/AHportfolio/static/media/form1p1.ac74153e78beb39b44be.PNG",
     "static/media/b.png": "/AHportfolio/static/media/b.2407adf2286cf59ee385.png",
     "static/media/a.png": "/AHportfolio/static/media/a.445e2b889dd5dc6b65db.png",
     "static/media/c.png": "/AHportfolio/static/media/c.c9393a5750313a5e8d14.png",
+    "static/media/e.png": "/AHportfolio/static/media/e.55525772a7b0f0cd46c0.png",
+    "static/media/f.png": "/AHportfolio/static/media/f.38223a8ccecda05c1f86.png",
     "static/media/d.png": "/AHportfolio/static/media/d.cd96d388811935eb6afe.png",
     "static/media/dblur.jpg": "/AHportfolio/static/media/dblur.ebf3d18abb80ac18aefa.jpg",
     "static/media/croppedpfp.jpg": "/AHportfolio/static/media/croppedpfp.6192b5a523e3411838ca.jpg",
@@ -24,12 +26,12 @@
     "static/media/form4p1.PNG": "/AHportfolio/static/media/form4p1.38b218394c308cfbdc6a.PNG",
     "static/media/logo.svg": "/AHportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AHportfolio/index.html",
-    "main.2478e7c3.css.map": "/AHportfolio/static/css/main.2478e7c3.css.map",
-    "main.987e7079.js.map": "/AHportfolio/static/js/main.987e7079.js.map",
+    "main.75843380.css.map": "/AHportfolio/static/css/main.75843380.css.map",
+    "main.e9f66750.js.map": "/AHportfolio/static/js/main.e9f66750.js.map",
     "787.7da95b79.chunk.js.map": "/AHportfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2478e7c3.css",
-    "static/js/main.987e7079.js"
+    "static/css/main.75843380.css",
+    "static/js/main.e9f66750.js"
   ]
 }
