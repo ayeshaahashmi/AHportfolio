@@ -19,6 +19,8 @@ import form2p1 from './c#/form2p1.PNG';
 import form3p1 from './c#/form3p1.PNG';
 import form4p1 from './c#/form4p1.PNG';
 import dblur from './c#/dblur.jpg';
+import e from './graphicdesign/e.png';
+import f from './graphicdesign/f.png';
 
 export default function Lesgo() {
 
@@ -71,6 +73,11 @@ export default function Lesgo() {
           <img src={graphic2} alt="Graphic 2" />
           <img src={graphic3} alt="Graphic 3" />
           <img src={graphic4} alt="Graphic 4" />
+        </div>
+        <p className='text2'>Business Card:</p>
+        <div className="enlarge">
+          <img src={e} alt="Business Card Front" />
+          <img src={f} alt="Business Card Back" />
         </div>
         </>
       );

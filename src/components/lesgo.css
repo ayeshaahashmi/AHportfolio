@@ -160,6 +160,22 @@ body {
     max-width: 300px; 
     margin: 0 10px; 
   }
+
+  .enlarge{
+    margin: 0 200px;
+  }
+
+  .enlarge img {
+    width: 550px; 
+    height: auto;
+}
+
+  .text2{
+    font-family:cursive; 
+    font-size: 30px; 
+    color: white;
+    margin-top: 20px;
+  }
   
   .text {
     font-family:cursive; 
