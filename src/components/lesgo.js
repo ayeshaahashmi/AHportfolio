@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './lesgo.css';
 import profileImage from './croppedpfp.jpg';
 import design from './design.png';
@@ -26,10 +26,24 @@ export default function Lesgo() {
 
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [content, setContent] = useState('home');
-  
+  const menuRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside);
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [menuRef]);
 
   const handleMenuToggle = () => {
-    setMenuOpen(!isMenuOpen);
+      setMenuOpen(!isMenuOpen);
   };
 
   const handleMenuClick = (menu) => {
@@ -165,7 +179,7 @@ export default function Lesgo() {
         
       </nav>
 
-      <div className="menu-container">
+      <div className="menu-container" ref={menuRef}>
 
         <div className="hamburger" onClick={handleMenuToggle}>
           <div className="bar"></div>
