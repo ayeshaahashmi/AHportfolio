@@ -337,14 +337,14 @@ body {
   .navbar-brand {
     width: 120px;
     font-size: 20px;
-    top: 16px;
+    top: 20px;
     left: 30px;
   }
 
   .image-content img {
     width: 20vh;
     top: 150px;
-    left: 230px;
+    left: 210px;
   }
 
   .image-content2 img {
@@ -423,13 +423,13 @@ body {
 
   .text-content{
     top: 20vh;
-    left: 3vh;
+    left: 1vh;
     z-index: 0;
   }
 
   .text-content2{
     top: 20vh;
-    left: 3vh;
+    left: 1vh;
     z-index: 0;
   }
 
