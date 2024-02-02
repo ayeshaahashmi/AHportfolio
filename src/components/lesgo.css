@@ -344,7 +344,7 @@ body {
   .image-content img {
     width: 20vh;
     top: 150px;
-    left: 210px;
+    left: 212px;
   }
 
   .image-content2 img {
@@ -410,11 +410,11 @@ body {
   }
 
   .c#-content .c {
-    max-width: 80px;
+    max-width: 10px;
   }
 
   .c#-content .d {
-    max-width: 8px;
+    max-width: 10vh;
   }
 
   .custom-nav-links .nav-item {
@@ -435,6 +435,12 @@ body {
 
   .nav-item{
     position: relative;
-    top: 3px;
+    top: 10px;
   }
+
+  .graphic-design-content {
+    left: 50vh;
+    position: relative;
+  }
+
 }
