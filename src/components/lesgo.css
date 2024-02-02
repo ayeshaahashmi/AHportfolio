@@ -126,6 +126,7 @@ body {
   border-right: 2px solid cadetblue;
   border-top: 2px solid cadetblue;
   transition: width 200ms ease;
+  z-index: 9999;
 }
 
 .vertical-menu a {
@@ -187,7 +188,6 @@ body {
   position: absolute;
   bottom: 0;
   right: 0; 
-  margin-bottom: -20px;
 }
 
 .contact-content {
@@ -298,6 +298,7 @@ body {
   .about-content img {
     max-width: 40px;
     height: auto;
+    margin-bottom: -20px;
   }
   
   .contact-content {
@@ -339,15 +340,13 @@ body {
   }
 
   .image-content img {
-    width: 180px;
+    width: 20vh;
     top: 150px;
     left: 300px;
   }
 
   .image-content2 img {
-    width: 350px;
-    top: 50px;
-    left: 650px;
+    display: none;
   }
 
   .bar {
@@ -390,6 +389,10 @@ body {
     right: -10px;
   }
 
+  .about-content img {
+    margin-bottom: 0px;
+  }
+
   .contact-info img {
     max-width: 15px;
   }
@@ -410,5 +413,21 @@ body {
 
   .c#-content .d {
     max-width: 8px;
+  }
+
+  .custom-nav-links .nav-item {
+    margin-right: 2vh; 
+  }
+
+  .text-content{
+    top: 20vh;
+    left: 10vh;
+    z-index: 0;
+  }
+
+  .text-content2{
+    top: 20vh;
+    left: 10vh;
+    z-index: 0;
   }
 }
