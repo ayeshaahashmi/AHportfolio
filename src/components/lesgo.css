@@ -337,12 +337,14 @@ body {
   .navbar-brand {
     width: 120px;
     font-size: 20px;
+    top: 16px;
+    left: 30px;
   }
 
   .image-content img {
     width: 20vh;
     top: 150px;
-    left: 300px;
+    left: 230px;
   }
 
   .image-content2 img {
@@ -416,18 +418,23 @@ body {
   }
 
   .custom-nav-links .nav-item {
-    margin-right: 2vh; 
+    margin-right: 1vh; 
   }
 
   .text-content{
     top: 20vh;
-    left: 10vh;
+    left: 3vh;
     z-index: 0;
   }
 
   .text-content2{
     top: 20vh;
-    left: 10vh;
+    left: 3vh;
     z-index: 0;
+  }
+
+  .nav-item{
+    position: relative;
+    top: 3px;
   }
 }
