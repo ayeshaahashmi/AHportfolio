@@ -75,7 +75,6 @@ body {
   flex-grow: 1;
   color:white;
   position: absolute;
-  top: 80px;
   left: 0px;
   text-align: left;
 }
@@ -336,6 +335,10 @@ body {
   .larger-text {
     font-size: 30px; 
   }
+
+  .intro {
+    top: 80px;
+  }
 }
 
 /*SMALL SCREEN*/
@@ -433,13 +436,13 @@ body {
 
   .text-content{
     top: 20vh;
-    left: 1vh;
+    left: 3vh;
     z-index: 0;
   }
 
   .text-content2{
     top: 20vh;
-    left: 1vh;
+    left: 3vh;
     z-index: 0;
   }
 
@@ -449,6 +452,10 @@ body {
   
   .larger-text {
     font-size: 25px; 
+  }
+
+  .intro {
+    top: 65px;
   }
 
   .nav-item{
