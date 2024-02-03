@@ -64,12 +64,10 @@ body {
 }
 
 .normal-text {
-  font-size: 20px; 
   margin-right: 140px;
 }
 
 .larger-text {
-  font-size: 30px; 
   color:aquamarine;
 }
 
@@ -206,6 +204,10 @@ body {
   margin: 10px 0;
 }
 
+.contact-info a {
+  color: white;
+}
+
 .contact-info img {
     vertical-align: middle;
     margin-right: 5px;
@@ -326,6 +328,14 @@ body {
   .c#-content .d {
       max-width: 10spx;
   }
+
+  .normal-text {
+    font-size: 20px; 
+  }
+  
+  .larger-text {
+    font-size: 30px; 
+  }
 }
 
 /*SMALL SCREEN*/
@@ -433,9 +443,17 @@ body {
     z-index: 0;
   }
 
+  .normal-text {
+    font-size: 15px; 
+  }
+  
+  .larger-text {
+    font-size: 25px; 
+  }
+
   .nav-item{
     position: relative;
-    top: 10px;
+    top: 7px;
   }
 
   .graphic-design-content {
