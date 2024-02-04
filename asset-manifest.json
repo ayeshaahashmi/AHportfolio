@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AHportfolio/static/css/main.01ca1e02.css",
-    "main.js": "/AHportfolio/static/js/main.9f0d1990.js",
+    "main.js": "/AHportfolio/static/js/main.6d06e4b6.js",
     "static/js/787.7da95b79.chunk.js": "/AHportfolio/static/js/787.7da95b79.chunk.js",
     "static/media/form1p2.PNG": "/AHportfolio/static/media/form1p2.8457e3e0a47d040a51e2.PNG",
     "static/media/form1p1.PNG": "/AHportfolio/static/media/form1p1.ac74153e78beb39b44be.PNG",
@@ -15,6 +15,7 @@
     "static/media/croppedpfp.jpg": "/AHportfolio/static/media/croppedpfp.6192b5a523e3411838ca.jpg",
     "static/media/design.png": "/AHportfolio/static/media/design.b30137ec28316a8bcb04.png",
     "static/media/fb.png": "/AHportfolio/static/media/fb.2a13b8154c74066438ed.png",
+    "static/media/bking.PNG": "/AHportfolio/static/media/bking.b8c3cb1dca13c251d4c4.PNG",
     "static/media/f1.PNG": "/AHportfolio/static/media/f1.59911683b9f5e8344c07.PNG",
     "static/media/flower.jpg": "/AHportfolio/static/media/flower.5e0eeecb6815a6acb0e8.jpg",
     "static/media/gmail.png": "/AHportfolio/static/media/gmail.491b662595dc95ef157a.png",
@@ -27,11 +28,11 @@
     "static/media/logo.svg": "/AHportfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/AHportfolio/index.html",
     "main.01ca1e02.css.map": "/AHportfolio/static/css/main.01ca1e02.css.map",
-    "main.9f0d1990.js.map": "/AHportfolio/static/js/main.9f0d1990.js.map",
+    "main.6d06e4b6.js.map": "/AHportfolio/static/js/main.6d06e4b6.js.map",
     "787.7da95b79.chunk.js.map": "/AHportfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01ca1e02.css",
-    "static/js/main.9f0d1990.js"
+    "static/js/main.6d06e4b6.js"
   ]
 }
