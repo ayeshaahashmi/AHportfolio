@@ -21,6 +21,7 @@ import form4p1 from './c#/form4p1.PNG';
 import dblur from './c#/dblur.jpg';
 import e from './graphicdesign/e.png';
 import f from './graphicdesign/f.png';
+import bking from './graphicdesign/bking.PNG';
 
 export default function Lesgo() {
 
@@ -92,6 +93,10 @@ export default function Lesgo() {
         <div className="enlarge">
           <img src={e} alt="Business Card Front" />
           <img src={f} alt="Business Card Back" />
+        </div>
+        <p className='text2'>Burger King Logo REMAKE :D *Note: sorry for the blur zoom in because my sw was not giving me full contents in svg/pdf</p>
+        <div className="enlarge">
+          <img src={bking} alt="Burger King Logo Remake" />
         </div>
         </>
       );
